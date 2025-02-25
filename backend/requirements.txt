@@ -1,1 +1,7 @@
 pip install -r requirements.txt
+contents:
+  Flask
+Flask-CORS
+pytesseract
+opencv-python
+numpy
