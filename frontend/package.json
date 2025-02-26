@@ -1,0 +1,12 @@
+{
+  "name": "ai-tax-assistant",
+  "version": "1.0.0",
+  "dependencies": {
+    "react": "^18.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  }
+}
