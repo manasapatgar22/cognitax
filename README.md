@@ -31,3 +31,40 @@ import App from './App';
 import './styles.css';
 
 ReactDOM.render(<App />, document.getElementById('root'));
+
+
+# AI Tax Assistant - Frontend
+
+## 📌 Setup Instructions
+1. Clone the repository:
+   ```sh
+   git clone <repo_url>
+   cd frontend
+2.Install dependencies:
+npm install
+
+3.Run the React App:
+npm start
+
+📌 Deployment
+To deploy on GitHub Pages:
+npm run build
+npm run deploy
+
+## **Final Steps: Upload to GitHub**
+### **1️⃣ Initialize Git Repository**
+```sh
+git init
+git add .
+git commit -m "Initial commit"
+2️⃣ Push Backend to GitHub
+cd backend
+git remote add origin <backend_repo_url>
+git push -u origin main
+3️⃣ Push Frontend to GitHub
+cd frontend
+git init
+git add .
+git commit -m "Initial frontend commit"
+git remote add origin <frontend_repo_url>
+git push -u origin main
